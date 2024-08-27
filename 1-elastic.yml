@@ -71,7 +71,7 @@ spec:
             - name: elasticsearch-config
               mountPath: /usr/share/elasticsearch/config/elasticsearch.yml
               subPath: elasticsearch.yml
-          image: "quay.io/anshuk6469/elasticsearch:7.16.3"
+          image: "quay.io/pandeysp/elasticsearch:8.15.0"
           securityContext:
            privileged: true
           ports:
